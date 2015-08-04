@@ -9,10 +9,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Esta sería la pantalla HOME"
+        android:text="Acá las remeras de Paspao de la QCon"
         android:textColor="#ffffff"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:paddingTop="50dp" />
+        android:paddingTop="50dp"/>
 </LinearLayout>

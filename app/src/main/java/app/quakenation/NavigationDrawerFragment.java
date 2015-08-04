@@ -26,20 +26,12 @@ public class NavigationDrawerFragment extends Fragment {
 
 
     private static final String STATE_SELECTED_POSITION = "selected_navigation_drawer_position";
-
-
     private static final String PREF_USER_LEARNED_DRAWER = "navigation_drawer_learned";
-
-
     private NavigationDrawerCallbacks mCallbacks;
-
-
     private ActionBarDrawerToggle mDrawerToggle;
-
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerListView;
     private View mFragmentContainerView;
-
     private int mCurrentSelectedPosition = 0;
     private boolean mFromSavedInstanceState;
     private boolean mUserLearnedDrawer;
@@ -87,6 +79,10 @@ public class NavigationDrawerFragment extends Fragment {
                         getString(R.string.title_section1),
                         getString(R.string.title_section2),
                         getString(R.string.title_section3),
+                        getString(R.string.title_section4),
+                        getString(R.string.title_section5),
+                        getString(R.string.title_section6),
+
                 }));
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
         return mDrawerListView;
@@ -233,7 +229,6 @@ public class NavigationDrawerFragment extends Fragment {
     private ActionBar getActionBar() {
         return ((AppCompatActivity) getActivity()).getSupportActionBar();
     }
-
 
     public static interface NavigationDrawerCallbacks {
 
