@@ -3,16 +3,25 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/quakenation">
+    android:background="@drawable/background2"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Acá :)"
+        android:text="Acá nosotros:)"
         android:textColor="#ffffff"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:paddingTop="50dp"/>
+        android:paddingTop="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:src="@drawable/nosotros"/>
+
+
 </LinearLayout>

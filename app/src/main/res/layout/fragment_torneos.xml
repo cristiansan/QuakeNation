@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="@android:color/background_dark">
+
+        >
 
 
         <LinearLayout
@@ -17,7 +25,7 @@
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_marginLeft="5dp">
+            >
 
             <TextView
                 android:layout_width="match_parent"
@@ -25,12 +33,13 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Grupo A"
                 android:textColor="#ffffff"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center"
                 android:paddingTop="10dp"
                 android:textStyle="bold"
                 android:background="@color/material_blue_grey_800" />
 
             <TextView
+                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -39,6 +48,7 @@
                 android:paddingTop="10dp" />
 
             <TextView
+                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -54,7 +64,7 @@
                 android:text="Nanomo"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -63,7 +73,7 @@
                 android:text="XinefNarg"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -71,7 +81,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Grupo B"
                 android:textColor="#ffffff"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center"
                 android:textStyle="bold"
                 android:layout_marginTop="30dp"
                 android:paddingTop="10dp"
@@ -84,7 +94,7 @@
                 android:text="NemMes1s_ar"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -93,7 +103,7 @@
                 android:text="Povedaa"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -102,7 +112,7 @@
                 android:text="c1rca"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -111,7 +121,7 @@
                 android:text="Intrudergp"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -119,7 +129,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Grupo C"
                 android:textColor="#ffffff"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center"
                 android:paddingTop="10dp"
                 android:textStyle="bold"
                 android:layout_marginTop="30dp"
@@ -132,7 +142,7 @@
                 android:text="Nauke"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -141,7 +151,7 @@
                 android:text="ffede"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -150,7 +160,7 @@
                 android:text="bonew"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -159,7 +169,7 @@
                 android:text="MadvErik"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -180,7 +190,7 @@
                 android:text="Prabuphada"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -189,7 +199,7 @@
                 android:text="Paspao"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -198,7 +208,7 @@
                 android:text="CroTazZo"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -207,7 +217,7 @@
                 android:text="Gwain"
                 android:textColor="#ffffff"
                 android:paddingTop="10dp"
-                />
+                android:layout_marginLeft="10dp" />
 
 
 
@@ -676,3 +686,4 @@
 
     </LinearLayout>
 </ScrollView>
+</LinearLayout>
