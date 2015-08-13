@@ -92,14 +92,23 @@ public class MainActivity extends AppCompatActivity
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(true);
         actionBar.setTitle(mTitle);
+
+
+
+        // ACTIVA LA ACTION BAR Y LO TOMA DE UN XML (actionbar) con el título centrado
+        // getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        // getSupportActionBar().setCustomView(R.layout.actionbar);
+
     }
 
-    /*//muestra el titulo en action bar
-    @Override
+    //muestra el titulo en action bar
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         if (!mNavigationDrawerFragment.isDrawerOpen()) {
             getMenuInflater().inflate(R.menu.main, menu);
             restoreActionBar();
+            ActionBar.LayoutParams p = new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+            p.gravity= Gravity.CENTER;
             return true;
         }
         return super.onCreateOptionsMenu(menu);
@@ -108,13 +117,13 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+       *//* if (id == R.id.action_settings) {
             return true;
-        }
+        }*//*
         return super.onOptionsItemSelected(item);
     }
-*/
-  /*  public static class PlaceholderFragment extends Fragment {
+
+    public static class PlaceholderFragment extends Fragment {
 
         private static final String ARG_SECTION_NUMBER = "section_number";
 
@@ -128,9 +137,9 @@ public class MainActivity extends AppCompatActivity
         }
 
         public PlaceholderFragment() {
-        }*/
+        }
 
-        /*@Override
+        @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
@@ -142,7 +151,7 @@ public class MainActivity extends AppCompatActivity
             super.onAttach(activity);
             ((MainActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
-        }*/
+        }
 
-
+*/
 }

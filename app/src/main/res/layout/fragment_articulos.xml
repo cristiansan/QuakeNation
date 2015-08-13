@@ -36,7 +36,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/imageDooms"
-            android:src="@drawable/cfg_doomsday" />
+            android:src="@drawable/cfg_doomsday"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -46,7 +47,8 @@
             android:linksClickable="true"
             android:textStyle="bold"
             android:textColor="#ff2b1a"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
     </LinearLayout>
 
     <LinearLayout
@@ -70,7 +72,8 @@
             android:linksClickable="true"
             android:textStyle="bold"
             android:textColor="#ff2b1a"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
     </LinearLayout>
 
     <LinearLayout
@@ -90,11 +93,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/config_maki"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:autoLink="web"
             android:linksClickable="true"
             android:textStyle="bold"
             android:textColor="#ff2b1a"
             android:gravity="center"/>
+
+
+
+
 
     </LinearLayout>
 
