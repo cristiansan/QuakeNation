@@ -44,18 +44,18 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginRight="5dp"
-        android:src="@drawable/elder"/>
+        android:src="@drawable/campgrounds"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginRight="5dp"
-        android:src="@drawable/cure"
+        android:src="@drawable/sinister"
          />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:src="@drawable/toxicity"
+        android:src="@drawable/campgrounds"
          />
 
 

@@ -8,6 +8,33 @@
     <string name="title_section5">Merchandising</string>
     <string name="title_section6">Quienes Somos</string>
 
+    //QUIENES SOMOS
+    <string name="quienes_somos_titulo">Hacen posible este trabajo:</string>
+    <string name="quienes_somos_nombres">Re1k0, Cinic, V1rtual, Paspao, FlyerA, XinefNarg, Ffede, Maki, Ivan, Christian E., Daniel R.B.</string>
+    <string name="quienes_somos_invitamos">Invitamos a todos los interesados en colaborar, a que se suban al equipo o envíen sugerencias.</string>
+    <string name="quienes_somos_sumate">SUMATE:</string>
+    <string name="quienes_somos_link"><a href="http://quakenation.net/">QUAKENATION.NET</a></string>
+
+    //ARTICULOS:
+    <string name="config_nhd"><a href="http://quakenation.net/">nhd</a></string>
+    <string name="config_doomsday"><a href="http://quakenation.net/">doomsday</a></string>
+    <string name="config_maki"><a href="http://quakenation.net/">maki</a></string>
+    <string name="timing_flyera">2do dígito: si pikeas en \n
+0 es 5\n1 es 6\n2 es 7\n3 es 8\n4 es 9\n5 es 0\n
+y funciona al revés: \n
+9 es 4\n8 es 3\n7 es 2\n6 es 1\n5 es 0\n
+con eso mecanizás el sistema no lo pensas ni sumas ni restas es mecánico:\n
+1er dígito:\n
+        1 es 3\n2 es 4\n3 es 6\n4 es 0\n5 es 1\n0 es 2\n
+entonces si pikeas en 13 seria: 2do dígito\n
+        3 es 8, 1er digito 1 es 3\n
+        pero deberias haberte hecho la siguiente pregunta:\n
+2do dígito está entre 6 y 9?\n
+        si es asi, tenes que sumar 2 al primer dígito y mecanizás
+        (13 38) pero 16 no es 31… es 41
+</string>
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 

@@ -4,16 +4,25 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
 
-/*@Override
+public class Torneos extends android.app.Fragment {
+
+@Override
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
                            Bundle savedInstanceState) {
-      View rootView = inflater.inflate(R.layout.fragment_torneos, container, false);
+      View rootView = inflater.inflate(R.layout.fragment_torneo, container, false);
       return rootView;
+   /* View button1;
+    button1.setOnClickListener(onClickListener);
+    View button2;
+    button2.setOnClickListener(onClickListener);
+    View button3;
+    button3.setOnClickListener(onClickListener);*/
   }
-}*/
-    public class Torneos extends android.app.Fragment {
+
+
+}
+   /* public class Torneos extends android.app.Fragment {
     private boolean loadWithOverviewMode;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -39,4 +48,4 @@ import android.webkit.WebView;
     public void setLoadWithOverviewMode(boolean loadWithOverviewMode) {
         this.loadWithOverviewMode = loadWithOverviewMode;
     }
-}
+}*/

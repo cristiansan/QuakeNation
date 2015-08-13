@@ -3,16 +3,127 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Acá los Artículos o la sección que quieran"
+        android:text="Configs para bajarse:"
         android:textColor="#ffffff"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:paddingTop="50dp"/>
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageDooms"
+            android:src="@drawable/cfg_doomsday" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/config_doomsday"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textStyle="bold"
+            android:textColor="#ff2b1a"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageViewNhd"
+            android:src="@drawable/cfg_nhd" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/config_nhd"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textStyle="bold"
+            android:textColor="#ff2b1a"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageMaki"
+            android:src="@drawable/cfg_maki" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/config_maki"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textStyle="bold"
+            android:textColor="#ff2b1a"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cómo timear: (by FlyerA)"
+            android:textColor="#ffffff"
+            android:id="@+id/textView6"
+            android:gravity="center"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/timing_flyera"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            />
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
