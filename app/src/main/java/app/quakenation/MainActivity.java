@@ -39,20 +39,24 @@ public class MainActivity extends AppCompatActivity
         android.app.Fragment fragment = null;
         switch (position){
             case 0:
-                fragment = new Home();
+                fragment = new Inicio();
                 break;
             case 1:
-                fragment = new Noticias();
-                break;
-            case 2:
                 fragment = new Articulos();
                 break;
-            case 3:
+            case 2:
                 fragment = new Torneos();
                 break;
-            case 4:
-                fragment = new QuienesSomos();
+            case 3:
+                fragment = new Videos();
                 break;
+            case 4:
+                fragment = new Reglamento();
+                break;
+            case 5:
+                fragment = new Contacto();
+                break;
+
 
         }
         fragmentManager.beginTransaction()
@@ -73,6 +77,12 @@ public class MainActivity extends AppCompatActivity
                 break;
             case 4:
                 mTitle = getString(R.string.title_section4);
+                break;
+            case 5:
+                mTitle = getString(R.string.title_section5);
+                break;
+            case 6:
+                mTitle = getString(R.string.title_section6);
                 break;
 
 

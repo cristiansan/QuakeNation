@@ -1,14 +1,75 @@
 <resources>
+
+    //TITULO
     <string name="app_name">QuakeNation</string>
 
-    <string name="title_section1">Home</string>
-    <string name="title_section2">Noticias</string>
-    <string name="title_section3">Artículos</string>
-    <string name="title_section4">Torneos</string>
-    <string name="title_section5">Merchandising</string>
-    <string name="title_section6">Quienes Somos</string>
+    //SECCIONES
+    <string name="title_section1">Inicio</string>
+    <string name="title_section2">Artículos</string>
+    <string name="title_section3">Torneos</string>
+    <string name="title_section4">Videos</string>
+    <string name="title_section5">Reglamento</string>
+    <string name="title_section6">Contacto</string>
 
-    //QUIENES SOMOS
+    //INICIO
+    <string name="inicio">Esta APP está orientada a los jugadores de QuakeLive que quieran estar informados sobre la comunidad, seguimiento de torneos, demos y novedades.</string>
+    <string name="inicio_medio">Para reactivar un poco la comunidad se organizaron 3 torneos dividos por nivel de ELO:.</string>
+    <string name="inicio_abajo">Esta APP está orientada a los jugadores de QuakeLive que quieran estar informados sobre la comunidad, seguimiento de torneos, demos y novedades.</string>
+    <string name="list_pt">\n
+        c1rca\n
+        NeMes1s_ar\n
+        JackFortunes\n
+        Nauke\n
+        bonew\n
+        Cinic\n
+        CroTazZo\n
+        Prabuphada\n
+        ffede\n
+        Gwain\n
+        IntruderGP\n
+        MadvErick\n
+        nanomo\n
+        paspao\n
+        Povedaa\n
+        XinefNarg\n</string>
+
+    <string name="list_mid">\n
+        Acidlove\n
+        BoomBoomKid\n
+        c1rca\n
+        CLuss\n
+        Destr1pador\n
+        fack1u\n
+        fLYERa\n
+        gSTRUCTOR\n
+        leonazul\n
+        NeMes1s_ar\n
+        noghost\n
+        orb1tal\n
+        P4ntro\n
+        raMax\n
+        susoosman\n
+        Tsyoyi01</string>
+
+    <string name="list_pro">\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n
+        TBC\n</string>
+
+    //CONTACTO
     <string name="quienes_somos_titulo">Hacen posible este trabajo:</string>
     <string name="quienes_somos_nombres">Re1k0, Cinic, V1rtual, Paspao, FlyerA, XinefNarg, Ffede, Maki, Ivan, Christian E., Daniel R.B.</string>
     <string name="quienes_somos_invitamos">Invitamos a todos los interesados en colaborar, a que se suban al equipo o envíen sugerencias.</string>
@@ -22,23 +83,101 @@
     <string name="timing_flyera">2do dígito: si pikeas en \n
 0 es 5\n1 es 6\n2 es 7\n3 es 8\n4 es 9\n5 es 0\n
 y funciona al revés: \n
-9 es 4\n8 es 3\n7 es 2\n6 es 1\n5 es 0\n
-con eso mecanizás el sistema no lo pensas ni sumas ni restas es mecánico:\n
+9 es 4\n8 es 3\n7 es 2\n6 es 1\n5 es 0\n</string>
+    <string name="timing_flyera2">
+
 1er dígito:\n
         1 es 3\n2 es 4\n3 es 6\n4 es 0\n5 es 1\n0 es 2\n
 entonces si pikeas en 13 seria: 2do dígito\n
-        3 es 8, 1er digito 1 es 3\n
-        pero deberias haberte hecho la siguiente pregunta:\n
+        3 es 8, 1er digito 1 es 3\n</string>
+    <string name="timing_flyera3">    pero deberias haberte hecho la siguiente pregunta:\n
 2do dígito está entre 6 y 9?\n
         si es asi, tenes que sumar 2 al primer dígito y mecanizás
         (13 38) pero 16 no es 31… es 41
-</string>
-
+    </string>
+    <string name="tuneles">sdf sad fasd fasd fasd fasd fas d fasd fasd f\n asd fasd fasd fasd fasd fas dfasd fasd asd as df\n asd fasd fasd fasd asd fasd f</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_example">Example action</string>
+
+    //REGLAMENTO
+
+    <string name="reglamento_titulo">Todas las bases y normas del torneo\n</string>
+    <string name="reglamento">
+
+REGLAMENTO OFICIAL Torneo de Quake Live 1 vs 1\n - Re1KoCon 2015 \n\n
+
+[DATOS SOBRE EL TORNEO] \n
+
+- Habrá un cupo máximo para 16 jugadores.\n
+- Para la inscripción deben enviar un mail a torneosquakelive@yahoo.com.ar\n\n
+*	Nombre y Apellido: \n
+*	Nick: \n
+*	Link de Quake Live con su profile:\n
+*	Mail: \n
+*	Celular para contacto alternativo:\n
+*	ELO: Puntaje (Debe ser menor a 1800)\n
+* Link para verificar ELO http://qlranks.com/duel/\n\n
+- Se desarrollará en 2 etapas. Primero una etapa de Grupos de 4 y luego una etapa de Brackets de eliminación directa a partir de los cuartos de final en adelante.\n
+- De cada Grupo avanzaran a la etapa de llave de eliminación directa los mejores 2 clasificados. \n
+- En la etapa de grupos se jugara Bo3 y en la etapa de Brackets se jugará Bo3 (Cuartos ? Semifinal y Final).\n
+- Los partidos se jugarán en los servidores de Quakelive de Argentina exceptuando algún inconveniente en los mismos.\n
+En Zona de grupos solo serán suficientes una demo y screenshot del partido, no hara falta un REF para empezar a jugar. Por ende se entiende que los partidos lo manejaran los mismos jugadores, arreglando horario en los días pactados por el STAFF, de no poder jugar ninguno de los 2 jugadores se les dara WO a ambos, en el caso de estar 1 presente se le dara WO automáticamente y se les dara los puntos al presente.\n\n
+[HORARIOS DE LOS PARTIDOS]\n
+- El torneo empezara el dia Lunes 17/08/2015.\n
+Las Zonas A -B -C - D, tienen toda la semana que va del Lunes 17 al Viernes 21 de Agosto para jugar sus partidos.\n
+Comprendiendo asi la primera semana de Zonas para luego el fin de semana siguiente comenzar con los brackets (Sábado 22 - 14hrs).\n
+Cuartos de Final ? (1ero y 2do de la zona A y C)  (1ero y 2do de la zona B y D) - Sistema Mundial \n\n
+
+Semifinal y Final se jugaran posterior a los Cuartos de Final \n\n
+
+NOTA: Queda bajo criterio de los referís la importancia del imprevisto. Una vez finalizado el warmup el réferi procederá a forzar el inicio del partido.\n\n
+
+[MAPAS] \n
+- CampGrounds\n
+- Elder \n
+- Sinister\n
+- Cure \n
+- Toxicity\n\n
+
+[FORMATO DE LOS GRUPOS Y BRACKETS]\n\n
+
+- Habrá una tabla por grupo donde aparecerán las posiciones de los participantes del torneo de acuerdo a sus puntos, en la misma también se mostraran los partidos ganados, perdidos y frags\n
+- Los puntos se asignaran de la siguiente forma: \n
+* 3 puntos por ronda ganada \n
+* 0 puntos por ronda perdido \n
+- Pasaran a la siguiente fase los dos mejores de cada grupo.\n
+- En la etapa de grupos se jugara Bo3, los mapas a jugarse serán elegidos por los jugadores de la siguiente forma: D-D (D= Descarte) quedando 1 mapa elegido por c/u que será el que se deberá jugar, el tercer mapa es el que queda. Para ver qué jugador descarta y que mapa se juega primero se hará un cointoss en quakelive, el jugador que pierda comenzara el descarte.\n
+- Los brackets arrancarán en cuartos de final (cuando queden 8 jugadores) y serán a eliminación directa. \n
+- En los brackets se jugara Bo3, los mapas a jugarse serán elegidos por los jugadores de la siguiente forma: D-D-E-E (D= Descarte, E= Elección). Para ver qué jugador descarta y que mapa se juega primero se hará un cointoss en quakelive, el jugador que pierda comenzara el descarte. Se jugara primero el mapa del ganador del cointoss o la tirada de moneda.\n
+-Para realizar el cointoss, primero los players deben determinar ?cara? o ?seca? y luego uno de ellos votará en el juego cointoss. (/callvote cointoss) \n\n
+
+[PENALIZACIONES] \n
+
+- Jugador que insulte o se pelee con los jugadores contrarios será invitado a calmarse por el réferi. De no deponer su actitud queda bajo criterio de los réferis la medida a tomar, pudiendo ser desde la pérdida del partido hasta la expulsión del torneo.\n\n
+
+[PROHIBICIONES Y CHEATS] \n
+- Queda totalmente prohibido el uso de cheats, scripts de timing y/o programa externo que de alguna ventaja deportiva.\n
+- No están permitidos los jugadores Unnameds ni fakes, el ingreso al torneo queda a criterio de los organizadores. \n
+- No se permitirá el ingreso de jugadores sospechados de cheats o que hayan sido descubiertos recientemente usando los mismos.\n
+- Jugador que sea descubierto utilizando alguna de estas ventajas será expulsado del torneo de forma inmediata dejando susceptible próxima aceptación de inscripción a nuevos torneos por parte de ésta organización.\n\n
+
+[DURANTE LOS PARTIDOS]\n
+- El máximo de jugadores en el servidor será de 8 (2 jugadores y 1 o 2 réferis).\n
+- No se permiten faltas de respeto de ningún tipo, ni a un jugador rival, ni a los réferis del torneo. De producirse alguna falta de respeto menor queda a criterio del réferi de turno la aplicación de una sanción.\n
+- Están permitidas todas las configuraciones salvo los scripts que den algún tipo de ventaja deportiva (ejemplo scripts de timing). \n
+- Los participantes de comprometen a adoptar una postura sanamente deportiva. \n\n
+
+[DATOS DEL SERVIDOR] \n
+- Gametype: Duel \n
+- Time Limit: 10 \n
+- Frag Limit: None \n
+- Timeout Count: 3 \n
+- Timeout Length: 60s\n
+- Match Size: 8</string>
+
 
 
 </resources>

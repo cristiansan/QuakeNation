@@ -54,19 +54,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
-                android:src="@drawable/campgrounds"/>
+                android:src="@drawable/toxicity"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
-                android:src="@drawable/sinister"
+                android:src="@drawable/cure"
                 />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
-                android:src="@drawable/campgrounds"
+                android:src="@drawable/elder"
                 />
 
 
@@ -84,8 +84,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:shadowColor="@android:color/holo_blue_dark"
-            android:id="@+id/button1"
+            android:id="@+id/nivelbajo"
             android:text="Fixture Nivel Bajo"
+            android:onClick="true"
             android:textStyle="bold"
             android:clickable="true"
             />

@@ -8,11 +8,11 @@ import android.view.ViewGroup;
 /**
  * Created by cnc on 04/08/2015.
  */
-public class Noticias extends android.app.Fragment {
+public class Inicio extends android.app.Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_videos, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_inicio, container, false);
         return rootView;
     }
 }
