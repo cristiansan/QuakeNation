@@ -95,7 +95,7 @@ entonces si pikeas en 13 seria: 2do dígito\n
         si es asi, tenes que sumar 2 al primer dígito y mecanizás
         (13 38) pero 16 no es 31… es 41
     </string>
-    <string name="tuneles">sdf sad fasd fasd fasd fasd fas d fasd fasd f\n asd fasd fasd fasd fasd fas dfasd fasd asd as df\n asd fasd fasd fasd asd fasd f</string>
+    <string name="tuneles">/cl_currentserveraddress\n/connect sv1.quakelive.com.br:27045</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
