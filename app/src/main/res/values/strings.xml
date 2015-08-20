@@ -6,15 +6,17 @@
     //SECCIONES
     <string name="title_section1">Inicio</string>
     <string name="title_section2">Artículos</string>
-    <string name="title_section3">Torneos</string>
-    <string name="title_section4">Videos</string>
-    <string name="title_section5">Reglamento</string>
-    <string name="title_section6">Contacto</string>
+    <string name="title_section3">Ranking</string>
+    <string name="title_section4">Reglamento</string>
+    <string name="title_section5">Contacto</string>
 
     //INICIO
     <string name="inicio">Esta APP está orientada a los jugadores de QuakeLive que quieran estar informados sobre la comunidad, seguimiento de torneos, demos y novedades.</string>
-    <string name="inicio_medio">Para reactivar un poco la comunidad se organizaron 3 torneos dividos por nivel de ELO:.</string>
-    <string name="inicio_abajo">Esta APP está orientada a los jugadores de QuakeLive que quieran estar informados sobre la comunidad, seguimiento de torneos, demos y novedades.</string>
+    <string name="inicio_medio">Para reactivar un poco la comunidad se organizó un torneo llamado Re1koCon, el mismo se divide en 3 niveles separados por ELO:.</string>
+    <string name="inicio_div2">Div 2 = ( - 1500 )</string>
+    <string name="inicio_div1">Div 1 = ( 1500 a 1800 )</string>
+    <string name="inicio_pro">PRO = ( + 1800 )</string>
+    <string name="inicio_abajo">En esta APP podrás seguir los resultados, ver las demos y recibir notificaciones de los eventos.</string>
     <string name="list_pt">\n
         c1rca\n
         NeMes1s_ar\n
@@ -31,7 +33,28 @@
         nanomo\n
         paspao\n
         Povedaa\n
-        XinefNarg\n</string>
+        XinefNarg</string>
+
+    <string name="list_pt_puntos">\n
+        100\n
+        94\n
+        88\n
+        82\n
+        76\n
+        70\n
+        64\n
+        58\n
+        52\n
+        46\n
+        40\n
+        34\n
+        28\n
+        22\n
+        16\n
+        10
+    </string>
+
+    <string name="list_pt_demos"><a href="https://www.youtube.com/watch?v=FlhAwkjIbrI">\nlink</a></string>
 
     <string name="list_mid">\n
         Acidlove\n
@@ -51,6 +74,44 @@
         susoosman\n
         Tsyoyi01</string>
 
+       <string name="list_mid_puntos">\n
+        100\n
+        94\n
+        88\n
+        82\n
+        76\n
+        70\n
+        64\n
+        58\n
+        52\n
+        46\n
+        40\n
+        34\n
+        28\n
+        22\n
+        16\n
+        10
+    </string>
+
+       <string name="list_mid_demos">\n
+        100\n
+        94\n
+        88\n
+        82\n
+        76\n
+        70\n
+        64\n
+        58\n
+        52\n
+        46\n
+        40\n
+        34\n
+        28\n
+        22\n
+        16\n
+        10
+    </string>
+
     <string name="list_pro">\n
         TBC\n
         TBC\n
@@ -63,15 +124,32 @@
         TBC\n
         TBC\n
         TBC\n
-        TBC\n
-        TBC\n
-        TBC\n
-        TBC\n
-        TBC\n</string>
+        TBC
+       </string>
+
+       <string name="list_pro_puntos">
+       \n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--
+    </string>
+
+   <string name="list_pro_demos">
+       \n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--
+    </string>
 
     //CONTACTO
     <string name="quienes_somos_titulo">Hacen posible este trabajo:</string>
-    <string name="quienes_somos_nombres">Re1k0, Cinic, V1rtual, Paspao, FlyerA, XinefNarg, Ffede, Maki, Ivan, Christian E., Daniel R.B.</string>
+    <string name="quienes_somos_nombres">\n
+        Re1k0: Organizacion, community Manager\n
+        V1rtual: Colaborador, asesoramiento torneos\n
+        Paspao: Organización, túneles (VPN)\n
+        FlyerA: Organizacion, stream\n
+        Cinic: Desarrollo de Android App\n
+        Ffede: Desarrollo de página web\n
+        XinefNarg: Desarrollo de página web\n
+        Maki: Organización, asesoramiento torneos\n
+        Ivan: Organización, diseño\n
+        Christian E.: Diseñador\n
+        Daniel R.B.: Colaborador, túneles (VPN)\n
+    </string>
     <string name="quienes_somos_invitamos">Invitamos a todos los interesados en colaborar, a que se suban al equipo o envíen sugerencias.</string>
     <string name="quienes_somos_sumate">SUMATE:</string>
     <string name="quienes_somos_link"><a href="http://quakenation.net/">QUAKENATION.NET</a></string>
@@ -105,14 +183,17 @@ entonces si pikeas en 13 seria: 2do dígito\n
     //REGLAMENTO
 
     <string name="reglamento_titulo">Todas las bases y normas del torneo\n</string>
-    <string name="reglamento">
+    <string name="reglamento_titulo_top">
+        REGLAMENTO OFICIAL Torneo de Quake Live 1 vs 1\n Re1KoCon 2015 \n
+    </string>
 
-REGLAMENTO OFICIAL Torneo de Quake Live 1 vs 1\n - Re1KoCon 2015 \n\n
+    <string name="reglamento_titulo_1">
+        [DATOS SOBRE EL TORNEO] \n
+    </string>
 
-[DATOS SOBRE EL TORNEO] \n
-
-- Habrá un cupo máximo para 16 jugadores.\n
-- Para la inscripción deben enviar un mail a torneosquakelive@yahoo.com.ar\n\n
+    <string name="reglamento_texto_1">
+ - Habrá un cupo máximo para 16 jugadores.\n
+- Para la inscripción deben enviar un mail a torneosquakelive@yahoo.com.ar\n
 *	Nombre y Apellido: \n
 *	Nick: \n
 *	Link de Quake Live con su profile:\n
@@ -124,27 +205,42 @@ REGLAMENTO OFICIAL Torneo de Quake Live 1 vs 1\n - Re1KoCon 2015 \n\n
 - De cada Grupo avanzaran a la etapa de llave de eliminación directa los mejores 2 clasificados. \n
 - En la etapa de grupos se jugara Bo3 y en la etapa de Brackets se jugará Bo3 (Cuartos ? Semifinal y Final).\n
 - Los partidos se jugarán en los servidores de Quakelive de Argentina exceptuando algún inconveniente en los mismos.\n
-En Zona de grupos solo serán suficientes una demo y screenshot del partido, no hara falta un REF para empezar a jugar. Por ende se entiende que los partidos lo manejaran los mismos jugadores, arreglando horario en los días pactados por el STAFF, de no poder jugar ninguno de los 2 jugadores se les dara WO a ambos, en el caso de estar 1 presente se le dara WO automáticamente y se les dara los puntos al presente.\n\n
+En Zona de grupos solo serán suficientes una demo y screenshot del partido, no hara falta un REF para empezar a jugar. Por ende se entiende que los partidos lo manejaran los mismos jugadores, arreglando horario en los días pactados por el STAFF, de no poder jugar ninguno de los 2 jugadores se les dara WO a ambos, en el caso de estar 1 presente se le dara WO automáticamente y se les dara los puntos al presente.\n
+    </string>
+
+    <string name="reglamento_titulo_1a">
 [HORARIOS DE LOS PARTIDOS]\n
-- El torneo empezara el dia Lunes 17/08/2015.\n
+        </string>
+
+    <string name="reglamento_texto_1a">
+ - El torneo empezara el dia Lunes 17/08/2015.\n
 Las Zonas A -B -C - D, tienen toda la semana que va del Lunes 17 al Viernes 21 de Agosto para jugar sus partidos.\n
 Comprendiendo asi la primera semana de Zonas para luego el fin de semana siguiente comenzar con los brackets (Sábado 22 - 14hrs).\n
-Cuartos de Final ? (1ero y 2do de la zona A y C)  (1ero y 2do de la zona B y D) - Sistema Mundial \n\n
+Cuartos de Final ? (1ero y 2do de la zona A y C)  (1ero y 2do de la zona B y D) - Sistema Mundial \n
 
-Semifinal y Final se jugaran posterior a los Cuartos de Final \n\n
+Semifinal y Final se jugaran posterior a los Cuartos de Final \n
 
-NOTA: Queda bajo criterio de los referís la importancia del imprevisto. Una vez finalizado el warmup el réferi procederá a forzar el inicio del partido.\n\n
+NOTA: Queda bajo criterio de los referís la importancia del imprevisto. Una vez finalizado el warmup el réferi procederá a forzar el inicio del partido.\n
+    </string>
 
-[MAPAS] \n
-- CampGrounds\n
+    <string name="reglamento_titulo_2">
+    [MAPAS] \n
+    </string>
+
+    <string name="reglamento_texto_2">
+ - CampGrounds\n
 - Elder \n
 - Sinister\n
 - Cure \n
-- Toxicity\n\n
+- Toxicity\n
+    </string>
 
-[FORMATO DE LOS GRUPOS Y BRACKETS]\n\n
+    <string name="reglamento_titulo_3">
+[FORMATO DE LOS GRUPOS Y BRACKETS]\n
+    </string>
 
-- Habrá una tabla por grupo donde aparecerán las posiciones de los participantes del torneo de acuerdo a sus puntos, en la misma también se mostraran los partidos ganados, perdidos y frags\n
+    <string name="reglamento_texto_3">
+ - Habrá una tabla por grupo donde aparecerán las posiciones de los participantes del torneo de acuerdo a sus puntos, en la misma también se mostraran los partidos ganados, perdidos y frags\n
 - Los puntos se asignaran de la siguiente forma: \n
 * 3 puntos por ronda ganada \n
 * 0 puntos por ronda perdido \n
@@ -152,31 +248,51 @@ NOTA: Queda bajo criterio de los referís la importancia del imprevisto. Una vez
 - En la etapa de grupos se jugara Bo3, los mapas a jugarse serán elegidos por los jugadores de la siguiente forma: D-D (D= Descarte) quedando 1 mapa elegido por c/u que será el que se deberá jugar, el tercer mapa es el que queda. Para ver qué jugador descarta y que mapa se juega primero se hará un cointoss en quakelive, el jugador que pierda comenzara el descarte.\n
 - Los brackets arrancarán en cuartos de final (cuando queden 8 jugadores) y serán a eliminación directa. \n
 - En los brackets se jugara Bo3, los mapas a jugarse serán elegidos por los jugadores de la siguiente forma: D-D-E-E (D= Descarte, E= Elección). Para ver qué jugador descarta y que mapa se juega primero se hará un cointoss en quakelive, el jugador que pierda comenzara el descarte. Se jugara primero el mapa del ganador del cointoss o la tirada de moneda.\n
--Para realizar el cointoss, primero los players deben determinar ?cara? o ?seca? y luego uno de ellos votará en el juego cointoss. (/callvote cointoss) \n\n
+-Para realizar el cointoss, primero los players deben determinar ?cara? o ?seca? y luego uno de ellos votará en el juego cointoss. (/callvote cointoss) \n
+    </string>
 
+    <string name="reglamento_titulo_4">
 [PENALIZACIONES] \n
+    </string>
 
-- Jugador que insulte o se pelee con los jugadores contrarios será invitado a calmarse por el réferi. De no deponer su actitud queda bajo criterio de los réferis la medida a tomar, pudiendo ser desde la pérdida del partido hasta la expulsión del torneo.\n\n
+    <string name="reglamento_texto_4">
+ - Jugador que insulte o se pelee con los jugadores contrarios será invitado a calmarse por el réferi. De no deponer su actitud queda bajo criterio de los réferis la medida a tomar, pudiendo ser desde la pérdida del partido hasta la expulsión del torneo.\n
+    </string>
 
+    <string name="reglamento_titulo_5">
 [PROHIBICIONES Y CHEATS] \n
-- Queda totalmente prohibido el uso de cheats, scripts de timing y/o programa externo que de alguna ventaja deportiva.\n
+    </string>
+
+    <string name="reglamento_texto_5">
+ - Queda totalmente prohibido el uso de cheats, scripts de timing y/o programa externo que de alguna ventaja deportiva.\n
 - No están permitidos los jugadores Unnameds ni fakes, el ingreso al torneo queda a criterio de los organizadores. \n
 - No se permitirá el ingreso de jugadores sospechados de cheats o que hayan sido descubiertos recientemente usando los mismos.\n
-- Jugador que sea descubierto utilizando alguna de estas ventajas será expulsado del torneo de forma inmediata dejando susceptible próxima aceptación de inscripción a nuevos torneos por parte de ésta organización.\n\n
+- Jugador que sea descubierto utilizando alguna de estas ventajas será expulsado del torneo de forma inmediata dejando susceptible próxima aceptación de inscripción a nuevos torneos por parte de ésta organización.\n
+    </string>
 
+    <string name="reglamento_titulo_6">
 [DURANTE LOS PARTIDOS]\n
-- El máximo de jugadores en el servidor será de 8 (2 jugadores y 1 o 2 réferis).\n
+    </string>
+
+    <string name="reglamento_texto_6">
+ - El máximo de jugadores en el servidor será de 8 (2 jugadores y 1 o 2 réferis).\n
 - No se permiten faltas de respeto de ningún tipo, ni a un jugador rival, ni a los réferis del torneo. De producirse alguna falta de respeto menor queda a criterio del réferi de turno la aplicación de una sanción.\n
 - Están permitidas todas las configuraciones salvo los scripts que den algún tipo de ventaja deportiva (ejemplo scripts de timing). \n
-- Los participantes de comprometen a adoptar una postura sanamente deportiva. \n\n
+- Los participantes de comprometen a adoptar una postura sanamente deportiva. \n
+    </string>
 
+    <string name="reglamento_titulo_7">
 [DATOS DEL SERVIDOR] \n
-- Gametype: Duel \n
+    </string>
+
+    <string name="reglamento_texto_7">
+ - Gametype: Duel \n
 - Time Limit: 10 \n
 - Frag Limit: None \n
 - Timeout Count: 3 \n
 - Timeout Length: 60s\n
-- Match Size: 8</string>
+- Match Size: 8
+    </string>
 
 
 
