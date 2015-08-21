@@ -54,7 +54,9 @@
         10
     </string>
 
-    <string name="list_pt_demos"><a href="https://www.youtube.com/watch?v=FlhAwkjIbrI">\nlink</a></string>
+    <string name="list_pt_demos"><a href="http://www.google.com">\nlink</a></string>
+
+    //https://www.youtube.com/watch?v=FlhAwkjIbrI
 
     <string name="list_mid">\n
         Acidlove\n
