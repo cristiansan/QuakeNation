@@ -68,10 +68,11 @@
 
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
+        android:gravity="center"
         android:layout_weight="1">
 
         <TextView
@@ -84,8 +85,23 @@
             android:textColor="#ff2b1d"
             android:layout_gravity="center"
             android:gravity="center"
+            android:textStyle="bold"
             android:id="@+id/textView5"
             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:autoLink="email"
+            android:linksClickable="true"
+            android:text="@string/email"
+            android:textColor="#ff2b1d"
+            android:textStyle="bold"
+            android:gravity="bottom|center"
+            android:id="@+id/email"
+            />
+
     </LinearLayout>
 
 

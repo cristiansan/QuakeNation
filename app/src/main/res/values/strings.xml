@@ -17,8 +17,8 @@
     <string name="inicio_div1">Div 1 = ( 1500 a 1800 )</string>
     <string name="inicio_pro">PRO = ( + 1800 )</string>
     <string name="inicio_abajo">En esta APP podrás seguir los resultados, ver las demos y recibir notificaciones de los eventos.</string>
-    <string name="list_pt">\n
-        c1rca\n
+    <string name="list_pt">
+         c1rca\n
         NeMes1s_ar\n
         JackFortunes\n
         Nauke\n
@@ -35,31 +35,31 @@
         Povedaa\n
         XinefNarg</string>
 
-    <string name="list_pt_puntos">\n
-        100\n
-        94\n
-        88\n
-        82\n
-        76\n
-        70\n
-        64\n
-        58\n
-        52\n
-        46\n
-        40\n
-        34\n
-        28\n
-        22\n
-        16\n
-        10
+    <string name="list_pt_puntos">
+         1\n
+        2\n
+        3\n
+        4\n
+        5\n
+        6\n
+        7\n
+        8\n
+        9\n
+        10\n
+        11\n
+        12\n
+        13\n
+        14\n
+        15\n
+        16
     </string>
 
     <string name="list_pt_demos"><a href="http://www.google.com">\nlink</a></string>
 
     //https://www.youtube.com/watch?v=FlhAwkjIbrI
 
-    <string name="list_mid">\n
-        Acidlove\n
+    <string name="list_mid">
+         Acidlove\n
         BoomBoomKid\n
         c1rca\n
         CLuss\n
@@ -76,46 +76,85 @@
         susoosman\n
         Tsyoyi01</string>
 
-       <string name="list_mid_puntos">\n
-        100\n
-        94\n
-        88\n
-        82\n
-        76\n
-        70\n
-        64\n
-        58\n
-        52\n
-        46\n
-        40\n
-        34\n
-        28\n
-        22\n
-        16\n
-        10
+    <string name="list_pt_rank">
+
+     1297\n
+    1440\n
+    1226\n
+    1078\n
+    1168\n
+    1159\n
+    1246\n
+    1396\n
+    1111\n
+    1195\n
+    1159\n
+    1175\n
+    1103\n
+    1309\n
+    1229\n
+    1148
+    </string>
+     <string name="list_mid_rank">
+
+    1614\n
+1604\n
+1653\n
+1593\n
+1527\n
+1410\n
+1546\n
+1510\n
+1492\n
+1451\n
+1387\n
+1538\n
+1653\n
+1313\n
+1515\n
+1636
     </string>
 
-       <string name="list_mid_demos">\n
-        100\n
-        94\n
-        88\n
-        82\n
-        76\n
-        70\n
-        64\n
-        58\n
-        52\n
-        46\n
-        40\n
-        34\n
-        28\n
-        22\n
-        16\n
-        10
+       <string name="list_mid_puntos">
+         1\n
+        2\n
+        3\n
+        4\n
+        5\n
+        6\n
+        7\n
+        8\n
+        9\n
+        10\n
+        11\n
+        12\n
+        13\n
+        14\n
+        15\n
+        16
     </string>
 
-    <string name="list_pro">\n
-        TBC\n
+       <string name="list_mid_demos">
+         1\n
+        2\n
+        3\n
+        4\n
+        5\n
+        6\n
+        7\n
+        8\n
+        9\n
+        10\n
+        11\n
+        12\n
+        13\n
+        14\n
+        15\n
+        16
+    </string>
+
+    <string name="list_pro">
+         TBC\n
         TBC\n
         TBC\n
         TBC\n
@@ -130,31 +169,45 @@
        </string>
 
        <string name="list_pro_puntos">
-       \n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--
+
+         1\n
+        2\n
+        3\n
+        4\n
+        5\n
+        6\n
+        7\n
+        8\n
+        9\n
+        10\n
+        11\n
+        12
     </string>
 
    <string name="list_pro_demos">
-       \n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--
+       --\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--
     </string>
 
     //CONTACTO
     <string name="quienes_somos_titulo">Hacen posible este trabajo:</string>
     <string name="quienes_somos_nombres">\n
         Re1k0: Organizacion, community Manager\n
-        V1rtual: Colaborador, asesoramiento torneos\n
         Paspao: Organización, túneles (VPN)\n
         FlyerA: Organizacion, stream\n
         Cinic: Desarrollo de Android App\n
         Ffede: Desarrollo de página web\n
-        XinefNarg: Desarrollo de página web\n
+        V1rtual: Colaborador, asesoramiento torneos\n
         Maki: Organización, asesoramiento torneos\n
         Ivan: Organización, diseño\n
+        XinefNarg: Desarrollo de página web\n
         Christian E.: Diseñador\n
-        Daniel R.B.: Colaborador, túneles (VPN)\n
+        Daniel R.B.: Colaborador (Brasil) (VPN)\n
+        Francisco J.G.M.: Colaborador (Chile)\n
     </string>
     <string name="quienes_somos_invitamos">Invitamos a todos los interesados en colaborar, a que se suban al equipo o envíen sugerencias.</string>
     <string name="quienes_somos_sumate">SUMATE:</string>
     <string name="quienes_somos_link"><a href="http://quakenation.net/">QUAKENATION.NET</a></string>
+    <string name="email"><a href="info@quakenation.net">info@quakenation.net</a></string>
 
     //ARTICULOS:
     <string name="config_nhd"><a href="http://quakenation.net/">nhd</a></string>
